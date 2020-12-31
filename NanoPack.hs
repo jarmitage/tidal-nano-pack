@@ -48,8 +48,6 @@ let _npT0 = [("target0", Nothing), ("ignore", Just $ VF 0)]
 -- OSC Specs, block mappings, control & misc
 :script src/Specs.hs
 :script src/Blocks/Blocks.hs
-:script src/Control.hs
-:script src/Misc.hs
 
 -- Nano Pack OSC Map
 :{
@@ -65,5 +63,5 @@ npOscMap = [(npTarget0, npOSCSpec0),
 
 -- Nano Pack + SuperDirt OSC Map
 :{
-npSDOscMap = npOscMap++(superdirtTarget, [superdirtShape])
+npSDOscMap = npOscMap++[(superdirtTarget, [superdirtShape])]
 :}

@@ -74,6 +74,10 @@ let only = (hush >>)
     d16 = p 16
 :}
 
+-- These need to be imported after startStream etc have been created
+:script src/Control.hs
+:script src/Misc.hs
+
 :{
 let setI = streamSetI tidal
     setF = streamSetF tidal

@@ -1,5 +1,3 @@
-import qualified Sound.Tidal.Tempo as T
-
 -- Nano Pack OSC scheduler init and reset
 :{
 let

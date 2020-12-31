@@ -16,7 +16,7 @@ let ctl c ch = control c # controlchannel ch
 
 -- UTL-Nano OSC Clock (?)
 :{
-let clock = lcclock 1
+let clock = npclock 1
 :}
 
 -- UTL-Note channels

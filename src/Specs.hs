@@ -94,11 +94,11 @@ npOSCSpec t = [OSC notePath  $ ArgList $ noteArgs++oscBundle++t,
 :}
 
 -- OSC Specs for targets 0-7
-npOSCSpec0 = npOSCSpec _lcT0
-npOSCSpec1 = npOSCSpec _lcT1
-npOSCSpec2 = npOSCSpec _lcT2
-npOSCSpec3 = npOSCSpec _lcT3
-npOSCSpec4 = npOSCSpec _lcT4
-npOSCSpec5 = npOSCSpec _lcT5
-npOSCSpec6 = npOSCSpec _lcT6
-npOSCSpec7 = npOSCSpec _lcT7
+npOSCSpec0 = npOSCSpec _npT0
+npOSCSpec1 = npOSCSpec _npT1
+npOSCSpec2 = npOSCSpec _npT2
+npOSCSpec3 = npOSCSpec _npT3
+npOSCSpec4 = npOSCSpec _npT4
+npOSCSpec5 = npOSCSpec _npT5
+npOSCSpec6 = npOSCSpec _npT6
+npOSCSpec7 = npOSCSpec _npT7
