@@ -9,7 +9,7 @@ hSetEncoding stdout utf8
 
 -- change to location of this dir:
 :cd /path/to/nanopack/dir
-:script src/NanoPack.hs
+:script NanoPack.hs
 
 -- Default SuperDirt start
 -- tidal <- startTidal (superdirtTarget {oLatency = 0.1, oAddress = "127.0.0.1", oPort = 57120}) (defaultConfig {cFrameTimespan = 1/20})
