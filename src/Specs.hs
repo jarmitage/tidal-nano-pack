@@ -76,6 +76,15 @@ let clockPath = "/nanoosc/clock"
     npclock = pF "npclock"
 :}
 
+-- OSC message params
+:{
+let oscBundle = [("delta", Just $ VF 0),
+                 ("cycle", Just $ VF 0),
+                 ("cps", Just $ VF 0)]
+    oscMessage = [("sec", Just $ VF 0),
+                  ("usec", Just $ VF 0)]
+:}
+
 -- Nano Pack OSC Spec template
 :{
 npOSCSpec t = [OSC notePath  $ ArgList $ noteArgs++oscBundle++t,
