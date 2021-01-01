@@ -2,6 +2,7 @@
 :set prompt ""
 
 -- Used in Control.hs
+:set -package vector
 import qualified Data.Vector as V
 
 import Sound.Tidal.Context
