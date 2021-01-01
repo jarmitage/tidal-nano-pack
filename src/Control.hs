@@ -33,7 +33,7 @@ let patt0 = (cP "patt0")
 
 -- OSC triggering functions
 
-import qualified Data.Vector as V
+-- import qualified Data.Vector as V
 
 :{
 capply condpat effectpat = every

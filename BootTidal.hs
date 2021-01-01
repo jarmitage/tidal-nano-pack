@@ -1,6 +1,9 @@
 :set -XOverloadedStrings
 :set prompt ""
 
+-- Used in Control.hs
+import qualified Data.Vector as V
+
 import Sound.Tidal.Context
 
 import System.IO (hSetEncoding, stdout, utf8)
